@@ -1,0 +1,76 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignore Maven / Gradle wrapper files (if any)
+.mvn/
+.gradle/
+!**/src/main/**/mvnw*
+!**/src/main/**/gradlew*
+
+
+# Ignore logs
+/logs/
+/*.log
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled class files
+*.class
+
+# Ignore database-related files
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Ignore environment-specific config files (e.g., .env, application-local.properties)
+.env
+application-local.properties
+
+# Ignore Spring Boot property override files (e.g., application.yml)
+application.yml
+application.properties
+
+# Ignore build artifacts
+/build/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore security-related files (if any private keys or sensitive information are in the repo)
+*.jks
+*.p12
+*.pem
